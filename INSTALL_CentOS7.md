@@ -10,6 +10,7 @@
 ### On First node
 ##### Open firewall ports
 ```
+sudo yum install firewalld
 firewall-cmd --permanent --add-port={3306/tcp,4444/tcp,4567/tcp,4568/tcp}
 firewall-cmd --reload
 ```
